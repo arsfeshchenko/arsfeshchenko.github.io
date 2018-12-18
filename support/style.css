@@ -1,0 +1,14 @@
+
+
+body {
+  background: #0A0A29;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+#wrap {
+
+  max-width: 1024px;
+  margin:50px auto;
+  padding: 10px 20px;
+}
