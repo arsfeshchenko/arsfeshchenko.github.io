@@ -1,1 +1,58 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #555;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: [Insert Date]</p>
+    
+    <p>Welcome to our app! This Privacy Policy explains how we collect, use, and protect your personal information when you use our iOS application that displays Instagram cabins on a 3D Mapbox map.</p>
+
+    <h2>Information We Collect</h2>
+    <p>Our app does not collect any personal data or Instagram data from users. The information displayed on the 3D Mapbox map is sourced from publicly available Instagram posts and does not involve user interaction or data sharing with Instagram or other services.</p>
+
+    <h2>How We Use Information</h2>
+    <p>Since our app does not collect personal data, no user data is stored, shared, or used for any purpose. The app solely provides a visual representation of publicly available Instagram content related to cabins on the Mapbox 3D map.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>The app integrates the following third-party services:</p>
+    <ul>
+        <li><strong>Mapbox:</strong> For rendering the 3D map. Please refer to the <a href="https://www.mapbox.com/legal/privacy" target="_blank">Mapbox Privacy Policy</a> for more information on their data practices.</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>As no user data is collected, stored, or processed by the app, there are no security risks related to user data. However, we ensure that the app follows best practices to provide a secure experience.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the "Last updated" date at the top will be revised. Please review this policy periodically for any updates.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or your experience with the app, please contact us at:</p>
+    <p>Email: [Your Contact Email]</p>
+
+    <p>Thank you for using our app!</p>
+</body>
+</html>
