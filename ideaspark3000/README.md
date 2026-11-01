@@ -1,0 +1,20 @@
+# IdeaSpark 3000 messages
+
+Public device feed: https://arsfeshchenko.github.io/ideaspark3000/message.json
+
+To send a message, append an object to the `messages` array in `message.json`:
+
+```json
+{
+  "id": 2,
+  "text": "Обіймаю тебе!"
+}
+```
+
+- IDs must be positive integers in increasing order. Always use a new, larger ID for a new message, including when correcting a previously sent text.
+- Keep up to 8 recent messages, in chronological order. Each text may contain up to 384 UTF-8 bytes (roughly 190 Ukrainian letters). The total file must stay under 8192 bytes.
+- Commit and push to `master`; wait for GitHub Pages to deploy. The ESP32 checks about every 15 seconds, though Pages deployment and caches can add delay.
+- Keep history while the device is offline so it can catch up. Messages removed before it downloads them cannot be recovered. The device retains up to 8 messages and never discards an unread one to admit another; read some mail if the inbox is full.
+- The file and repository are public. Do not put Wi-Fi passwords or other secrets here.
+
+Device behavior: bouncing envelope and unread count, button opens the oldest unread message as a scrolling line. Further presses open remaining unread messages; after the last one, a press returns to idle. A press from idle replays the latest saved message. Messages and read state survive power loss.
